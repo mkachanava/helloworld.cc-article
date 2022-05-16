@@ -1,0 +1,50 @@
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+h2,
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+mark {
+    font-size: large;
+    color: white;
+    background-color: rgb(235, 64, 135);
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+i {
+    font-style: normal;
+}
+
+.first_span {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(235, 64, 135);
+}
+  
+cite {
+    font-size: smaller;
+    font-style: normal;
+}
+
+strong {
+    color: rgb(235, 64, 135);
+    font-weight: bold;
+    font-size: x-large;
+}
+
+span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+figcaption {
+    font-size: smaller;
+}
