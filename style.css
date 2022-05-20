@@ -1,4 +1,3 @@
-
 h1 {
     font-size: 56px;
     font-family: 'Segoe UI';
@@ -16,17 +15,22 @@ h3 {
     font-size: 24px;
     font-family: Tahoma;
     text-transform: uppercase;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
 }
 
 .block-title {
     background-color: rgb(245, 0, 102);
+    text-align: center;
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    right: 18px;
 }
 
 mark {
     font-size: 20px;
     font-family: 'Segoe UI';
-    color: #ffffff;
+    color:  rgb(255, 255, 255);
     background-color: rgb(235, 64, 135);
     text-transform: uppercase;
     margin: 10px;
@@ -45,14 +49,12 @@ i {
     display: block;
     text-align: center;
     font-style: normal;
-    
 }
 
 .title-1 {
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(235, 64, 135);
-    
 }
 
 cite {
@@ -70,7 +72,7 @@ strong {
     font-size: 20px;
     background-color: rgb(0, 0, 0);
     padding: 5px 10px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .highlighted-words {
@@ -84,7 +86,6 @@ strong {
 li {
     list-style-type: square;
     color: rgb(221, 0, 92);
-
 }
 
 li span {
@@ -94,14 +95,21 @@ li span {
 
 aside {
     background-color: rgb(0, 0, 0);
-    width: 260px;
-    height: 400px;
+    width: 320px;
+    height: auto;
+    padding: 12px;
+}
+
+.block-subtitle {
+    font-size: 14px;
+    font-family: Tahoma;
+    color:  rgb(255, 255, 255);
 }
 
 .links-to-read {
     font-size: 14px;
     font-family: Tahoma;
-    color: #ffffff;
+    color:  rgb(255, 255, 255);
 }
 
 a {
@@ -109,12 +117,17 @@ a {
     font-weight: bold;
     font-family: Tahoma;
     text-decoration: none;
-    color: #ffffff;
+    color:  rgb(255, 255, 255);
+}
+
+.links {
+    padding: 5px;;
+    margin: 5px;
 }
 
 .quotes {
     background: rgb(0, 0, 0);
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     padding: 3px 8px;
 }
 
@@ -129,21 +142,11 @@ blockquote {
     background-color: rgb(235, 64, 135);
 }
 
-.page-one {
+.section-content {
     display: flex;
 }
 
-.block-one {
-    width: 320px;
-    margin: 15px;
-}
-
-.block-two {
-    width: 320px;
-    margin: 15px;
-}
-
-.block-three {
+.article-content {
     width: 320px;
     margin: 15px;
 }
@@ -152,7 +155,7 @@ blockquote {
     display: flex;
 }
 
-.text {
+.content {
     width: 260px;
     height: 400px;
 }
@@ -160,18 +163,13 @@ blockquote {
 .symbol {
     font-size: 16px;
     font-family: 'Segoe UI';
-    color: #ffffff;
+    color:  rgb(255, 255, 255);
     background-color: rgb(235, 64, 135);
     text-transform: uppercase;
     margin: 5px;
     padding: 2px;
-
 }
 
 .quotes-rectangle {
     width: 530px;
 }
-    
-
-
-
