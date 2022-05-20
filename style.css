@@ -1,0 +1,175 @@
+h1 {
+    font-size: 56px;
+    font-family: 'Segoe UI';
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+}
+
+h3 {
+    font-size: 24px;
+    font-family: Tahoma;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.block-title {
+    background-color: rgb(245, 0, 102);
+    text-align: center;
+    width: 350px;
+    position: relative;
+    z-index: 1;
+    right: 18px;
+}
+
+mark {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    color:  rgb(255, 255, 255);
+    background-color: rgb(235, 64, 135);
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 4px;
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    line-height: 2;
+}
+
+i {
+    font-family: serif;
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    font-style: normal;
+}
+
+.title-1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(235, 64, 135);
+}
+
+cite {
+    font-size: 12px;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    border-bottom: 1px dotted;
+    margin-top: 10px;
+}
+
+strong {
+    color: rgb(235, 64, 135);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.highlighted-words {
+    font-family: 'Trebuchet MS';
+}
+
+.figcaption {
+    font-size: 12px;
+}
+
+li {
+    list-style-type: square;
+    color: rgb(221, 0, 92);
+}
+
+li span {
+    color: rgb(0, 0, 0);
+    line-height: 2;
+}
+
+aside {
+    background-color: rgb(0, 0, 0);
+    width: 320px;
+    height: auto;
+    padding: 12px;
+}
+
+.block-subtitle {
+    font-size: 14px;
+    font-family: Tahoma;
+    color:  rgb(255, 255, 255);
+}
+
+.links-to-read {
+    font-size: 14px;
+    font-family: Tahoma;
+    color:  rgb(255, 255, 255);
+}
+
+a {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Tahoma;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+}
+
+.links {
+    padding: 5px;;
+    margin: 5px;
+}
+
+.quotes {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 3px 8px;
+}
+
+blockquote {
+    text-transform: uppercase;
+}
+
+.rectangle {
+    width: 10px;
+    height: 30px;
+    margin-left: 12px;
+    background-color: rgb(235, 64, 135);
+}
+
+.section-content {
+    display: flex;
+}
+
+.article-content {
+    width: 320px;
+    margin: 15px;
+}
+
+.paragraphs {
+    display: flex;
+}
+
+.content {
+    width: 260px;
+    height: 400px;
+}
+
+.symbol {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    color:  rgb(255, 255, 255);
+    background-color: rgb(235, 64, 135);
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 2px;
+}
+
+.quotes-rectangle {
+    width: 530px;
+}
