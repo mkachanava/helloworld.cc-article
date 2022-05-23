@@ -19,7 +19,7 @@
     <i>Ian Benson and Jenny Cane show how Haskell helps learners to reason symbolically with<br>Cuisenaire-Gattegno
         Mathematics: a proven approach to teaching algebra before arithmetic</i>
     <cite>
-        <span class="title-1">story by</span> Ian Benson and Jenny Cane
+        <span class="content-title">story by</span> Ian Benson and Jenny Cane
     </cite>
     <article>
         <section class="section-content">
@@ -44,7 +44,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="article-content">
+            <div class="article-content-border">
                 <p>equations using plus, minus, multiply, and fractions as operators, and translate these into
                     arithmetic. The results had been impressive throughout key stage 1. In Year 2 we wanted to take it a
                     step further by running computing lessons using the same use of natural language and level of
@@ -90,7 +90,7 @@
         </section>
         <section class="section-content">
             <div>
-                <figure>
+                <figure class="figure-border">
                     <img src="img/2_1.jpg" width="630" height="370" alt="math">
                     <figcaption>
                         <ul>
@@ -107,7 +107,7 @@
                         The language soon became a natural part of lessons and meant that it was easy to progress to the
                         next step.
                     </p>
-                    <p class="article-content">run, and that this would require carefully debugging and retyping. The children could spot bugs
+                    <p class="article-border">run, and that this would require carefully debugging and retyping. The children could spot bugs
                         in the engine because they had already worked out the answer. The staircase was a familiar
                         pattern, so they could predict what the output should be. Children were also able to edit the
                         <span class="highlighted-words">Colour</span> data type to model odd or even staircases and test their functions to see
@@ -116,8 +116,10 @@
                     </p>
                 </div>
                 <div class="quotes-rectangle">
-                    <span class="quotes">"</span>
-                    <div class="rectangle"></div>
+                    <div class="figures">
+                        <span class="quotes">"</span>
+                        <div class="rectangle"></div>
+                    </div>    
                     <blockquote>
                         Some children could creatively<br>enjoy inventing functions
                     </blockquote>
@@ -131,7 +133,7 @@
                             soon
                             became apparent that errors in the engine meant that the interpreter would not</p>
                     </div>
-                    <p class="article-content">number names for the rods, measured with White rather than the colour names. He becomes aware as
+                    <p class="article-border">number names for the rods, measured with White rather than the colour names. He becomes aware as
                         he is speaking that the version of the <span class="highlighted-words">succ</span> function that works for a staircase
                         with a step size White is distinct from the version of <span class="highlighted-words">succ</span> in an even staircase,
                         and he corrects himself. It is clear to see that he has constructed an image of the staircase
@@ -146,39 +148,38 @@
                     <img src="img/2.jpg" width="630" height="200" alt="math">
                 </figure>
             </div>
-            <div class="block-aside">
-                    <aside>
-                        <h3 class="block-title">Where to go next</h3>
-                        <p class="block-subtitle">Many Cuisenaire and Gattegno resources can be found online:</p>
-                        <ul>
-                            <li class="links"><span class="links-to-read">New developments in arithmetic teaching in Britain: introducing the concept of ‘set’ <a
-                                    href="http://helloworld.cc/2pYFgOw">helloworld.cc/2pYFgOw</a></span></li>
-                            <li class="links"><span class="links-to-read">The common sense of teaching mathematics: <a
-                                    href="http://helloworld.cc/2p9dyKO">helloworld.cc/2p9dyKO</a></span></li>
-                            <li class="links"><span class="links-to-read">Gattegno Mathematics, Book 1: <a
-                                    href="http://helloworld.cc/2qz7xZe">helloworld.cc/2qz7xZe</a></span></li>
-                            <li class="links"><span class="links-to-read">Virtual Rods: <a href="http://helloworld.cc/2pI8ctc">helloworld.cc/2pI8ctc</a></span></li>
-                            <li class="links"><span class="links-to-read">Sample code for these exercises: <a
-                                    href="http://helloworld.cc/2pFyx9j">helloworld.cc/2pFyx9j</a></span></li>
-                        </ul>
-                    </aside>
-                <div class="content">
-                    <h2>Calculating</h2>
-                    <p>To build the rod arithmetic calculator, the pupil reuses the equations that they studied in Year
-                        1. Gattegno’s definitions lie in the algebraic domain. Programming illustrates the distinction
-                        between algebra and arithmetic. Making this clear is crucial to investigating the level of
-                        abstraction that the learner has reached. The figure shows a rod arithmetic calculator
-                        constructed after four terms of Gattegno Mathematics. The values associated with the rod code
-                        letters are modelled as constant functions in Haskell. Nine equations are derived from
-                        Gattegno’s equivalent expressions. The tenth, which binds an integer value to the code for
-                        White, shows the choice of measuring unit, which fixes the values of the other codes.</p>
-                    <p>By introducing Haskell to the children we have been able to take the mathematics that the
-                        children are familiar with and successfully and creatively introduce programming functions. We
-                        have been able to provide both the teacher and child with a rich situation, allowing them to
-                        think both mathematically and computationally. It is exciting to think where our investigations
-                        may lead us to next!</p>
-                    <mark class="symbol">(hw)</mark>
-                </div>
+            <div class="article-border">
+                <aside>
+                    <h3 class="block-title">Where to go next</h3>
+                    <p class="block-subtitle">Many Cuisenaire and Gattegno resources can be found online:</p>
+                    <ul>
+                        <li class="links"><span class="links-to-read">New developments in arithmetic teaching in Britain: introducing the concept of ‘set’ <a
+                                href="http://helloworld.cc/2pYFgOw">helloworld.cc/2pYFgOw</a></span></li>
+                        <li class="links"><span class="links-to-read">The common sense of teaching mathematics: <a
+                                href="http://helloworld.cc/2p9dyKO">helloworld.cc/2p9dyKO</a></span></li>
+                        <li class="links"><span class="links-to-read">Gattegno Mathematics, Book 1: <a
+                                href="http://helloworld.cc/2qz7xZe">helloworld.cc/2qz7xZe</a></span></li>
+                        <li class="links"><span class="links-to-read">Virtual Rods: <a href="http://helloworld.cc/2pI8ctc">helloworld.cc/2pI8ctc</a></span></li>
+                        <li class="links"><span class="links-to-read">Sample code for these exercises: <a
+                                href="http://helloworld.cc/2pFyx9j">helloworld.cc/2pFyx9j</a></span></li>
+                    </ul>
+                </aside>
+                <h2>Calculating</h2>
+                <p>To build the rod arithmetic calculator, the pupil reuses the equations that they studied in Year
+                    1. Gattegno’s definitions lie in the algebraic domain. Programming illustrates the distinction
+                    between algebra and arithmetic. Making this clear is crucial to investigating the level of
+                    abstraction that the learner has reached. The figure shows a rod arithmetic calculator
+                    constructed after four terms of Gattegno Mathematics. The values associated with the rod code
+                    letters are modelled as constant functions in Haskell. Nine equations are derived from
+                    Gattegno’s equivalent expressions. The tenth, which binds an integer value to the code for
+                    White, shows the choice of measuring unit, which fixes the values of the other codes.</p>
+                <p class="mark">By introducing Haskell to the children we have been able to take the mathematics that the
+                    children are familiar with and successfully and creatively introduce programming functions. We
+                    have been able to provide both the teacher and child with a rich situation, allowing them to
+                    think both mathematically and computationally. It is exciting to think where our investigations
+                    may lead us to next!</p>
+                <mark class="symbol">(hw)</mark>
+            </div>
             </div>
         </section>
     </article>

@@ -18,15 +18,6 @@ h3 {
     color: rgb(255, 255, 255);
 }
 
-.block-title {
-    background-color: rgb(245, 0, 102);
-    text-align: center;
-    width: 350px;
-    position: relative;
-    z-index: 1;
-    right: 18px;
-}
-
 mark {
     font-size: 20px;
     font-family: 'Segoe UI';
@@ -51,7 +42,7 @@ i {
     font-style: normal;
 }
 
-.title-1 {
+.content-title {
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(235, 64, 135);
@@ -95,9 +86,19 @@ li span {
 
 aside {
     background-color: rgb(0, 0, 0);
-    width: 320px;
-    height: auto;
-    padding: 12px;
+    padding: 15px;
+    margin-bottom: 70px;
+}
+
+.block-title {
+    background-color: rgb(245, 0, 102);
+    text-align: center;
+    width: 340px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    right: 25px;
+    margin-top: 10px;
 }
 
 .block-subtitle {
@@ -121,7 +122,7 @@ a {
 }
 
 .links {
-    padding: 5px;;
+    padding: 5px;
     margin: 5px;
 }
 
@@ -147,17 +148,28 @@ blockquote {
 }
 
 .article-content {
-    width: 320px;
+    width: 100%;
     margin: 15px;
+    padding: 12px;
+}
+
+.article-content-border {
+    width: 100%;
+    margin: 15px;
+    padding: 12px;
+    border-right: 1px dotted rgb(0, 0, 0);
+    border-left: 1px dotted rgb(0, 0, 0);
+}
+
+.article-border {
+    width: 100%;
+    margin: 15px;
+    padding: 12px;
+    border-left: 1px dotted rgb(0, 0, 0);
 }
 
 .paragraphs {
     display: flex;
-}
-
-.content {
-    width: 260px;
-    height: 400px;
 }
 
 .symbol {
@@ -171,5 +183,24 @@ blockquote {
 }
 
 .quotes-rectangle {
-    width: 530px;
+    margin: 15px;
+    padding: 15px;
+    border-top: 1px dotted rgb(0, 0, 0);
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
+
+.mark {
+    display: inline;
+}
+
+.figures {
+    float: left;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.figure-border {
+    border-bottom: 1px dotted rgb(0, 0, 0);
 }
