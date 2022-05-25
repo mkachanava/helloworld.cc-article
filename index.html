@@ -22,9 +22,10 @@
         <span class="content-title">story by</span> Ian Benson and Jenny Cane
     </cite>
     <article>
-        <section class="section-content">
-            <div class="article-content">
-                <p><strong>A</strong>t Bursted Wood Primary School, children in key stage 1 had already embarked on a
+        <div class="column">
+            <section>
+                <div class="article-content">
+                    <p><strong>A</strong>t Bursted Wood Primary School, children in key stage 1 had already embarked on a
                     secure mathematical journey, putting algebra at the heart of the curriculum. The demands of the 2014
                     National Curriculum meant that in Year 1 children were expected to be taught to use all four
                     arithmetic operations, and fractions, as operators. As a result, Bursted Wood adopted a series of
@@ -35,70 +36,46 @@
                     exploration that they finally use a rod as a unit of measure (e.g. white representing one), and
                     transform their equations into arithmetic. Very early on in Year 1, children are able to read and
                     write a variety of complex algebraic</p>
-                <figure>
-                    <img src="img/1.jpg" width="290" height="220" alt="steps order">
-                    <figcaption> 
+                    <figure>
+                        <img src="img/1.jpg" width="290" height="220" alt="steps order">
+                        <figcaption> 
                             <ul>
                                 <li><span class="figcaption">The ten Cuisenaire rods arranged in order as a staircase with step size White.</span></li>
                             </ul>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="article-content-border">
-                <p>equations using plus, minus, multiply, and fractions as operators, and translate these into
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="article-border">
+                    <p>equations using plus, minus, multiply, and fractions as operators, and translate these into
                     arithmetic. The results had been impressive throughout key stage 1. In Year 2 we wanted to take it a
                     step further by running computing lessons using the same use of natural language and level of
                     sophistication.</p>
-                <h2>Why Haskell?</h2>
-                <p>Haskell is closely aligned to conceptual mathematics and number theory, the inspiration for Gattegno
-                    Mathematics. It has four attributes that make it particularly appropriate for mathematics education:
-                </p>
-                <ul>
-                    <li><span>Its syntax is very close to traditional mathematical notation (but beware that it can be too
+                    <h2>Why Haskell?</h2>
+                    <p>Haskell is closely aligned to conceptual mathematics and number theory, the inspiration for Gattegno
+                    Mathematics. It has four attributes that make it particularly appropriate for mathematics education:</p>
+                    <ul>
+                        <li><span>Its syntax is very close to traditional mathematical notation (but beware that it can be too
                         terse).</span></li>
-                    <li><span>Variables are statically typed, which means that programmers are protected by the compiler from
+                        <li><span>Variables are statically typed, which means that programmers are protected by the compiler from
                         passing invalid information as an argument (input) or output value.</span></li>
-                    <li><span>The Haskell interpreter evaluates functions ‘lazily’, only when required. This makes it possible
+                        <li><span>The Haskell interpreter evaluates functions ‘lazily’, only when required. This makes it possible
                         to program infinite data structures in finite memory.</span></li>
-                    <li><span>Information is passed from the arguments to functions by pattern matching. This is an intuitive
+                        <li><span>Information is passed from the arguments to functions by pattern matching. This is an intuitive
                         way for programmers to envisage and reason about the behaviour of their programs.</span></li>
-                </ul>
-            </div>
-            <div class="article-content">
-                <figure>
-                    <img src="img/page1_1.jpg" width="290" height="270" alt="math">
-                    <figcaption>
-                        <ul>
-                            <li><span class="figcaption">Equivalent expressions using Gattegno’s rod codes to represent the relationship between
-                                a rod and equivalent trains of one colour</span></li>
-                        </ul>
-                    </figcaption>
-                </figure>
-                <h2>Starting with a staircase</h2>
-                <p>To start, we went back to a familiar pattern that Gattegno introduces in the textbooks, called a
-                    staircase. This is built from one rod of each colour arranged in size order (figure 1). The children
-                    were able to physically build the staircase. However, because they were so familiar with the
-                    pattern, they could also access it virtually, which would help with debugging and logical reasoning
-                    later. A role-play game to establish computational thinking was introduced before any actual
-                    programming began. This allowed the children to familiarise themselves with the function calls
-                    <span class="highlighted-words">successor</span> and <span class="highlighted-words">predecessor (succ, pred)</span> while traversing the
-                    staircase. The children would take turns to ask each other questions such as <span class="highlighted-words">succ
-                        White</span> (answer Red) or <span class="highlighted-words">pred Orange</span> (answer Blue). To help the children
-                    access the new programming vocabulary, one child
-                </p>
-            </div>
-        </section>
-        <section class="section-content">
-            <div>
-                <figure class="figure-border">
-                    <img src="img/2_1.jpg" width="630" height="370" alt="math">
-                    <figcaption>
-                        <ul>
-                            <li><span class="figcaption">A rod arithmetic calculator built after studying the staircase step size White, and its conjugate with every other rod removed</span></li>
-                        </ul>
-                    </figcaption>
-                </figure>
-                <div class="paragraphs">
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <figure class="figure-border">
+                        <img src="img/2_1.jpg" width="630" height="370" alt="math">
+                        <figcaption class="sign-figcaption">
+                            <ul>
+                                <li><span class="figcaption">A rod arithmetic calculator built after studying the staircase step<br> size White, and its conjugate with every other rod removed</span></li>
+                            </ul>
+                        </figcaption>
+                    </figure>
+                    <div class="paragraphs">
                     <p class="article-content">would take the role of the ‘engine’ and the other ‘interpreter’. This was extended to
                         <span class="highlighted-words">succ</span> $ <span class="highlighted-words">succ</span> (successor of successor) which uses function composition
                         $. Some children could creatively enjoy inventing functions such as <span class="highlighted-words">succ</span> $
@@ -141,27 +118,43 @@
                 </div>
                 <figure>
                     <figcaption>
-                        <ul>
+                        <ul class="sign">
                             <li><span class="figcaption">Transcript of a conversation about program behaviour.</span></li>
                         </ul>
                     </figcaption>
                     <img src="img/2.jpg" width="630" height="200" alt="math">
                 </figure>
-            </div>
-            <div class="article-border">
+            </section>
+        </div>
+        <div class="column">
+            <div class="column-content">
+                <figure>
+                    <img src="img/page1_1.jpg" width="290" height="270" alt="math">
+                    <figcaption>
+                        <ul>
+                            <li>
+                                <span class="figcaption">Equivalent expressions using Gattegno’s rod codes to represent the relationship between
+                                    a rod and equivalent trains of one colour
+                                </span>
+                            </li>
+                        </ul>
+                    </figcaption>
+                </figure>
+                <h2>Starting with a staircase</h2>
+                <p>To start, we went back to a familiar pattern that Gattegno introduces in the textbooks, called a staircase. This is built from one rod of each colour arranged in size order (figure 1). The children were able to physically build the staircase. However, because they were so familiar with the pattern, they could also access it virtually, which would help with debugging and logical reasoning later. A role-play game to establish computational thinking was introduced before any actual programming began. This allowed the children to familiarise themselves with the function calls <span class="highlighted-words">successor</span> and <span class="highlighted-words">predecessor (succ, pred)</span> while traversing the staircase. The children would take turns to ask each other questions such as <span class="highlighted-words">succ White</span> (answer Red) or <span class="highlighted-words">pred Orange</span> (answer Blue). To help the children access the new programming vocabulary, one child</p>
                 <aside>
                     <h3 class="block-title">Where to go next</h3>
                     <p class="block-subtitle">Many Cuisenaire and Gattegno resources can be found online:</p>
                     <ul>
                         <li class="links"><span class="links-to-read">New developments in arithmetic teaching in Britain: introducing the concept of ‘set’ <a
-                                href="http://helloworld.cc/2pYFgOw">helloworld.cc/2pYFgOw</a></span></li>
+                                    href="http://helloworld.cc/2pYFgOw">helloworld.cc/2pYFgOw</a></span></li>
                         <li class="links"><span class="links-to-read">The common sense of teaching mathematics: <a
-                                href="http://helloworld.cc/2p9dyKO">helloworld.cc/2p9dyKO</a></span></li>
+                                    href="http://helloworld.cc/2p9dyKO">helloworld.cc/2p9dyKO</a></span></li>
                         <li class="links"><span class="links-to-read">Gattegno Mathematics, Book 1: <a
-                                href="http://helloworld.cc/2qz7xZe">helloworld.cc/2qz7xZe</a></span></li>
+                                    href="http://helloworld.cc/2qz7xZe">helloworld.cc/2qz7xZe</a></span></li>
                         <li class="links"><span class="links-to-read">Virtual Rods: <a href="http://helloworld.cc/2pI8ctc">helloworld.cc/2pI8ctc</a></span></li>
                         <li class="links"><span class="links-to-read">Sample code for these exercises: <a
-                                href="http://helloworld.cc/2pFyx9j">helloworld.cc/2pFyx9j</a></span></li>
+                                    href="http://helloworld.cc/2pFyx9j">helloworld.cc/2pFyx9j</a></span></li>
                     </ul>
                 </aside>
                 <h2>Calculating</h2>
@@ -180,8 +173,7 @@
                     may lead us to next!</p>
                 <mark class="symbol">(hw)</mark>
             </div>
-            </div>
-        </section>
+        </div>
     </article>
 </body>
 
