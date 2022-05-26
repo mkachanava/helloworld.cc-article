@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 56px;
     font-family: 'Segoe UI';
@@ -16,15 +20,6 @@ h3 {
     font-family: Tahoma;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
-}
-
-.block-title {
-    background-color: rgb(245, 0, 102);
-    text-align: center;
-    width: 350px;
-    position: relative;
-    z-index: 1;
-    right: 18px;
 }
 
 mark {
@@ -51,7 +46,7 @@ i {
     font-style: normal;
 }
 
-.title-1 {
+.content-title {
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(235, 64, 135);
@@ -94,22 +89,36 @@ li span {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     background-color: rgb(0, 0, 0);
-    width: 320px;
-    height: auto;
-    padding: 12px;
+    padding: 80px;
+    margin-top: 240px;
+    position: relative;
+}
+
+.block-title {
+    background-color: rgb(245, 0, 102);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    right: 30px;
+    margin: 10px;
 }
 
 .block-subtitle {
     font-size: 14px;
     font-family: Tahoma;
-    color:  rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
 }
 
 .links-to-read {
     font-size: 14px;
     font-family: Tahoma;
-    color:  rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
 }
 
 a {
@@ -117,47 +126,60 @@ a {
     font-weight: bold;
     font-family: Tahoma;
     text-decoration: none;
-    color:  rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
 }
 
 .links {
-    padding: 5px;;
-    margin: 5px;
+    padding: 8px;
+    margin: 0px;
 }
 
 .quotes {
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    padding: 3px 8px;
+    padding: 6px 16px;
 }
 
 blockquote {
     text-transform: uppercase;
+    font-size: 42px;
+    margin: 10px;
 }
 
 .rectangle {
-    width: 10px;
-    height: 30px;
-    margin-left: 12px;
+    width: 15px;
+    height: 70px;
+    margin-left: 24px;
     background-color: rgb(235, 64, 135);
 }
 
-.section-content {
+.quotes-rectangle {
+    margin: 0;
+}
+
+section {
     display: flex;
+
 }
 
 .article-content {
-    width: 320px;
-    margin: 15px;
+    width: 50%;
+    padding: 10px;
+}
+
+.article-content-border {
+    border-right: 1px dotted rgb(0, 0, 0);
+    border-left: 1px dotted rgb(0, 0, 0);
+}
+
+.article-border {
+    width: 50%;
+    padding: 10px;
+    border-left: 1px dotted rgb(0, 0, 0);
 }
 
 .paragraphs {
     display: flex;
-}
-
-.content {
-    width: 260px;
-    height: 400px;
 }
 
 .symbol {
@@ -171,5 +193,63 @@ blockquote {
 }
 
 .quotes-rectangle {
-    width: 530px;
+    margin: 15px;
+    margin-left: 0px;
+    padding: 15px;
+    border-top: 1px dotted rgb(0, 0, 0);
+    border-bottom: 1px dotted rgb(0, 0, 0);
 }
+
+.mark {
+    display: inline;
+}
+
+.figures {
+    float: left;
+    margin-right: 10px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.figure-border {
+    border-bottom: 1px dotted rgb(0, 0, 0);
+}
+
+.sign-figcaption {
+    position: relative;
+    left: 500px;
+    bottom: 85px;
+}
+
+article {
+    display: flex;
+    width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+.column-content {
+    padding: 10px;
+    border-left: 1px dotted rgb(0, 0, 0);
+}
+
+.sign {
+    margin: 0;
+    padding: 25px;
+    border-top: 1px dotted rgb(0, 0, 0);
+
+}
+
+.column {
+    width: 33%;
+}
+
+.column:first-of-type {
+    width: 67%;
+}
+
+
