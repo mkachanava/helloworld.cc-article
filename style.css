@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     font-size: 56px;
     font-family: 'Segoe UI';
@@ -91,15 +95,18 @@ aside {
     background-color: rgb(0, 0, 0);
     padding: 80px;
     margin-top: 240px;
+    position: relative;
 }
 
 .block-title {
     background-color: rgb(245, 0, 102);
     text-align: center;
     padding: 10px;
-    position: relative;
-    right: 100px;
-    margin: 0;
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    right: 30px;
+    margin: 10px;
 }
 
 .block-subtitle {
@@ -123,25 +130,31 @@ a {
 }
 
 .links {
-    padding: 5px;
-    margin: 5px;
+    padding: 8px;
+    margin: 0px;
 }
 
 .quotes {
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    padding: 3px 8px;
+    padding: 6px 16px;
 }
 
 blockquote {
     text-transform: uppercase;
+    font-size: 42px;
+    margin: 10px;
 }
 
 .rectangle {
-    width: 10px;
-    height: 30px;
-    margin-left: 12px;
+    width: 15px;
+    height: 70px;
+    margin-left: 24px;
     background-color: rgb(235, 64, 135);
+}
+
+.quotes-rectangle {
+    margin: 0;
 }
 
 section {
@@ -150,18 +163,17 @@ section {
 }
 
 .article-content {
-    width: 100%;
+    width: 50%;
     padding: 10px;
 }
 
 .article-content-border {
-    width: 100%;
     border-right: 1px dotted rgb(0, 0, 0);
     border-left: 1px dotted rgb(0, 0, 0);
 }
 
 .article-border {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border-left: 1px dotted rgb(0, 0, 0);
 }
@@ -182,6 +194,7 @@ section {
 
 .quotes-rectangle {
     margin: 15px;
+    margin-left: 0px;
     padding: 15px;
     border-top: 1px dotted rgb(0, 0, 0);
     border-bottom: 1px dotted rgb(0, 0, 0);
@@ -193,6 +206,7 @@ section {
 
 .figures {
     float: left;
+    margin-right: 10px;
 }
 
 li {
@@ -205,12 +219,13 @@ li {
 
 .sign-figcaption {
     position: relative;
-    left: 260px;
+    left: 500px;
     bottom: 85px;
 }
 
 article {
     display: flex;
+    width: 100%;
 }
 
 figure {
@@ -218,11 +233,23 @@ figure {
 }
 
 .column-content {
-    width: 100%;
     padding: 10px;
+    border-left: 1px dotted rgb(0, 0, 0);
 }
 
 .sign {
     margin: 0;
     padding: 25px;
+    border-top: 1px dotted rgb(0, 0, 0);
+
 }
+
+.column {
+    width: 33%;
+}
+
+.column:first-of-type {
+    width: 67%;
+}
+
+
